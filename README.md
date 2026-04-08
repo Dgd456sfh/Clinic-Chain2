@@ -11,7 +11,6 @@ Clinic Chain is a centralized digital health record system that allows patient d
 - 📷 QR-based patient record access
 - 🏥 Multi-clinic data sharing
 - 📁 File upload for medical records
-- 🌐 Multi-language support
 - 📊 Simple dashboard for clinics
 
 ## Tech Stack
@@ -20,6 +19,13 @@ Clinic Chain is a centralized digital health record system that allows patient d
 - Database: MongoDB
 
 ## ⚙️ How to Run
-```bash
+1.Install Node.js → https://nodejs.org
+(Download & install LTS version)
+2.Check install
+node -v
+npm -v
+3.Install all dependencies
 npm install
-npm start
+4.Start project by writing npx nodemon app.js in terminal
+5.Enter http://localhost:3000 in browser
+6.see the data stored in mongodb compass
