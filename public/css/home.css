@@ -370,3 +370,122 @@ transform:translateY(0);
     50%{ transform: translateY(-8px); }
     100%{ transform: translateY(0px); }
 }
+/* =========================
+   📱 RESPONSIVE DESIGN FIX
+   ========================= */
+
+/* TABLET */
+@media (max-width: 992px) {
+
+    .navbar {
+        padding: 10px 20px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .nav a {
+        margin-left: 15px;
+        font-size: 15px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .features {
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 40px 20px;
+    }
+
+    .card {
+        width: 45%;
+    }
+
+    .logo {
+        width: 90px;
+        height: 90px;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10px;
+        gap: 12px;
+    }
+
+    .nav a {
+        margin-left: 0;
+        font-size: 16px;
+    }
+
+    .hero {
+        padding: 30px 15px;
+    }
+
+    .hero h1 {
+        font-size: 24px;
+    }
+
+    #quote {
+        font-size: 16px;
+        height: auto;
+    }
+
+    .features {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 15px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .btn {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .logo {
+        width: 70px;
+        height: 70px;
+    }
+
+    .brand-name {
+        font-size: 16px;
+    }
+}
+
+/* SMALL MOBILE */
+@media (max-width: 400px) {
+
+    .hero h1 {
+        font-size: 20px;
+    }
+
+    .nav a {
+        font-size: 14px;
+    }
+
+    .card {
+        padding: 20px;
+    }
+}
+
